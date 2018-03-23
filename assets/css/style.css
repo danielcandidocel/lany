@@ -1,0 +1,115 @@
+body{
+    background: #FFF;
+    font-family: Times, Times New Roman, serif;
+    min-height: 800px;
+}
+/*CSS TOPO*/
+.topo{
+    height: 134px;
+   
+    width: 100%;
+}
+.topo_links{
+    height: 24px;
+    background: white;
+}
+.topo_info{
+    background: #1475B9;
+    height: 100px;
+    box-shadow: 0px 10px 0px 0px rgba(127, 137, 161, 0.15);
+}
+/*CSS TOPO*/
+
+/*CSS CORPO*/
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/*CSS CORPO*/
+
+/*CSS SLIDER*/
+.slider{
+    margin-top: 30px;
+}
+.slider img{
+    max-width: 1140px;
+    
+}
+/*CSS SLIDER*/
+
+/*CSS SECTION*/
+#servicos, #marcas, #contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 100%;
+}
+.section-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 40px;
+    color:#1475B9;
+}
+.section-body{
+    display: flex;
+    flex-direction: row;
+    
+}
+.body-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-text p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1475B9;
+    text-align: justify;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    max-height: 50px;
+    
+}
+#marcas .section-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 60px 30px 60px;
+    
+}
+.linha{
+    
+}
+.linha img{
+    
+    
+}
+/*CSS SLIDER*/
+
+/*CSS FOOTER*/
+.rodape{
+    margin-top: 50px;
+    height: 490px;
+    width: 100%;
+    background-color:  #1475B9;
+}
+/*CSS FOOTER*/
